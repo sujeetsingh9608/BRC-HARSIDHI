@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>प्रखंड संसाधन केन्द्र (BRC), हरसिद्धि</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+        }
+        header {
+            background-color: #0d47a1;
+            color: white;
+            padding: 20px text-align: center;
+            border-bottom: 5px solid #ffb300;
+        }
+        header h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        nav {
+            background-color: #1565c0;
+            text-align: center;
+        }
+        nav a {
+            display: inline-block;
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #ffb300;
+            color: #0d47a1;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+        }
+        @media(max-width: 768px) {
+            .container { grid-template-columns: 1fr; }
+        }
+        .main-content, .sidebar {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #0d47a1;
+            border-bottom: 2px solid #1565c0;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .notice-list {
+            list-style: none;
+        }
+        .notice-list li {
+            padding: 10px 0;
+            border-bottom: 1px dashed #ccc;
+        }
+        .notice-list li a {
+            color: #d32f2f;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .notice-list li a:hover { text-decoration: underline; }
+        footer {
+            background-color: #212121;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>प्रखंड संसाधन केन्द्र (BRC), हरसिद्धि</h1>
+    <p>शिक्षा विभाग, बिहार सरकार | पूर्वी चंपारण </p>
+</header>
+
+<nav>
+    <a href="#home">मुख्य पृष्ठ</a>
+    <a href="#about">हमारे बारे में</a>
+    <a href="#notices">सूचनाएँ</a>
+    <a href="#contact">संपर्क करें</a>
+</nav>
+
+<div class="container">
+    <div class="main-content" id="home">
+        <h2>BRC हरसिद्धि में आपका स्वागत है</h2>
+        <p style="line-height: 1.6; margin-bottom: 15px;">
+            प्रखंड संसाधन केन्द्र, हरसिद्धि का मुख्य उद्देश्य प्रखंड के सभी प्राथमिक, मध्य और माध्यमिक विद्यालयों में गुणात्मक शिक्षा सुनिश्चित करना और शिक्षकों को आवश्यक शैक्षणिक सहायता प्रदान करना है।
+        </p>
+        
+        <h2 id="about" style="margin-top: 30px;">हमारे बारे में</h2>
+        <p style="line-height: 1.6;">
+            यह केंद्र शिक्षकों के प्रशिक्षण, सरकारी योजनाओं (जैसे मध्याह्न भोजन, पोशाक योजना, छात्रवृत्ति) के सुचारू संचालन और प्रखंड स्तर पर शैक्षणिक डेटा के रख-रखाव के लिए नोडल एजेंसी के रूप में कार्य करता है।
+        </p>
+    </div>
+
+    <div class="sidebar" id="notices">
+        <h2>सूचना पट्ट (Notice Board)</h2>
+        <ul class="notice-list">
+            <li><a href="#">[नया]</a> शिक्षकों की मासिक बैठक संबंधी सूचना।</li>
+            <li><a href="#">[नया]</a> निपुण बिहार मिशन के तहत नए दिशानिर्देश।</li>
+            <li>स्कूलों में यू-डाइस (U-DISE+) डेटा एंट्री की अंतिम तिथि।</li>
+        </ul>
+    </div>
+</div>
+
+<div class="container" style="grid-template-columns: 1fr; margin-top: 0;" id="contact">
+    <div class="main-content">
+        <h2>संपर्क सूत्र (Contact Us)</h2>
+        <p><strong>पता:</strong> प्रखंड संसाधन केन्द्र (BRC), हरसिद्धि, पूर्वी चंपारण, बिहार - 845422</p>
+        <p><strong>ईमेल:</strong> brcharsiddhi-est@bihar.gov.in (काल्पनिक)</p>
+        <p><strong>कार्य समय:</strong> सुबह 10:00 बजे से शाम 5:00 बजे तक (रविवार बंद)</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 प्रखंड संसाधन केन्द्र, हरसिद्धि, पूर्वी चंपारण. सभी अधिकार सुरक्षित हैं।</p>
+</footer>
+
+</body>
+</html>
